@@ -1,17 +1,24 @@
 const Price = () => {
+  const composition_container_price = 'text-white bg-blue-100'
+  const composition_h2 = 'tracking-[-0.01375rem]'
+  const composition_price = 'tracking-[-0.025rem]'
+  const composition_unit = 'leading-[162.5%] tracking-[-0.0125rem]'
+  const composition_button = 'leading-[162.5%] tracking-[-0.0125rem] w-[100%] min-h-[3rem] rounded-[0.3125rem] bg-green-100'
+  const utility_opacity = 'opacity-50'
+
   return (
     <>
-      <article>
-        <h2>
+      <article className={`container__price ${composition_container_price}`}>
+        <h2 className={`${composition_h2}`}>
           Monthly Subscription
         </h2>
-        <p>
-          &dollar;29 per month
+        <p className="pricing">
+          <span className={`price ${composition_price}`}>$29</span> <span className={`unit ${composition_unit} ${utility_opacity}`}>per month</span> 
         </p>
-        <p>
-          Full access for less than &dollar;1 a day
+        <p className={`unit ${composition_unit}`}>
+          Full access for less than $1 a day
         </p>
-        <button>
+        <button className={`${composition_button}`}>
           Sign Up
         </button>
       </article>

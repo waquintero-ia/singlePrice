@@ -1,3 +1,35 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+h1 {
+  font-size: clamp(1.25rem, 2.5vw, 1.5rem);
+  @apply font-bold;
+}
+
+.subtitle {
+  font-size: clamp(0.9375rem, 2.5vw, 1.125rem);
+}
+
+.description {
+  font-size: clamp(0.875rem, 2.5vw, 1rem);
+  @apply font-normal;
+}
+
+h2 {
+  font-size: 1.125rem;
+  @apply font-bold;
+}
+
+.price {
+  @apply text-[2rem];
+  @apply font-bold;
+}
+
+.unit {
+  @apply font-normal;
+}
+
+button {
+  @apply font-bold;
+}
