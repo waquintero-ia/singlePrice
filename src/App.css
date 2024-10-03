@@ -1,3 +1,12 @@
+:root {
+  --flow-space-title: 6.4vw;
+  --flow-space-description: 4.27vw;
+  --flow-space-price: 4.8vw;
+  --flow-space-pricing: 6.94vw;
+  --flow-space-content: 1.07vw;
+  --flow-space-description-footer: 4.8vw;
+}
+
 body {
   font-family: 'Karla', sans-serif;
   display: flex;
@@ -5,9 +14,35 @@ body {
   align-items: center;
   min-height: 100vh;
   background-color: #E6EFF5;
+  padding-top: 19.2vw;
+  padding-bottom: 16.53vw;
 }
 
 main {
   width: 82.94vw;
   border-radius: 5px;
+}
+
+.flow__title > * + * {
+  margin-top: var(--flow-space-title, 1em);
+}
+
+.flow__description > * + * {
+  margin-top: var(--flow-space-description, 1em);
+}
+
+.flow__price > * + * {
+  margin-top: var(--flow-space-price, 1em);
+}
+
+.flow__pricing > * + * {
+  margin-top: var(--flow-space-pricing, 1em);
+}
+
+.flow__content__pricing > * + * {
+  margin-top: var(--flow-space-content, 1em);
+}
+
+.flow__description__footer > * + * {
+  margin-top: var(--flow-space-description-footer, 1em);
 }
