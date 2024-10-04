@@ -46,3 +46,7 @@ main {
 .flow__description__footer > * + * {
   margin-top: var(--flow-space-description-footer, 1em);
 }
+
+[data-type="left"] {
+  margin-left: 2.93vw;
+}

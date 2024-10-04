@@ -1,8 +1,8 @@
 const Title = () => {
   const composition_container_title = 'bg-white px-[6.4vw] pt-[7.47vw] pb-[8.54vw]'
-  const composition_title = 'tracking-[-0.015625rem] text-blue-100'
+  const composition_title = 'tracking-[-0.015625rem] text-blue-10 leading-[110%]'
   const composition_subtitle = 'leading-[133%] tracking-[-0.011875rem] text-green-100'
-  const composition_description = 'leading-[185.72%] tracking-[-0.010625rem] text-grey-100'
+  const composition_description = 'leading-[187%] tracking-[-0.010625rem] text-grey-100'
   return (
     <>
       <article className={`container__title flow__title ${composition_container_title}`}>
