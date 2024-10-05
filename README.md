@@ -21,7 +21,7 @@ Users should be able to:
 
 ## Live site
 
-🚀 []()
+🚀 [https://waquintero-ia.github.io/singlePrice/]()
 
 ## Solution URL
 🚀 []()
