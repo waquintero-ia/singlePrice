@@ -52,3 +52,46 @@ main {
   margin-left: 2.93vw;
 }
 
+@media (min-width: 40rem) {
+  body{
+    padding: 0;
+  }
+
+  main {
+    width: 44.10vw;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .container__title {
+    grid-column: 1/3;
+  }
+
+  .flow__title > * + * {
+    margin-top: 1.67vw;
+  }
+
+  .flow__description > * + * {
+    margin-top: 0.77vw;
+  }
+
+  .flow__price > * + * {
+    margin-top: 1.25vw;
+  }
+
+  .flow__pricing > * + * {
+    margin-top: 1.81vw;
+  }
+
+  .flow__content__pricing > * + * {
+    margin-top: 0.28vw;
+  }
+
+  .flow__description__footer > * + * {
+    margin-top: 1.25vw;
+  }
+
+  [data-type="left"] {
+    margin-left: 0.77vw;
+  }
+}

@@ -37,3 +37,33 @@ button {
   min-height: 12.8vw;
 }
 
+@media (min-width: 40rem) {
+  h1 {
+    font-size: calc(0.0625rem + 1.6vw);
+  }
+
+  .subtitle {
+    font-size: calc(0.0625rem + 1.19vw);
+  }
+
+  .description {
+    font-size: calc(0.0625rem + 1.05vw);
+  }
+
+  h2 {
+    font-size: calc(0.0625rem + 1.19vw);
+  }
+
+  .price {
+    font-size: calc(0.0625rem + 2.2vw);
+  }
+
+  .unit {
+    font-size: calc(0.0625rem + 1.05vw);
+  }
+
+  button {
+    font-size: calc(0.0625rem + 1.05vw);
+    min-height: 3.34vw;
+  }
+}

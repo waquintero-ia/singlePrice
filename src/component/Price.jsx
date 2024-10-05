@@ -1,5 +1,6 @@
 const Price = () => {
   const composition_container_price = 'text-white bg-blue-100 p-[6.4vw]'
+  const composition_container_price_xl = 'sm:p-[2.78vw]'
   const composition_h2 = 'tracking-[-0.01375rem] leading-[110%]'
   const composition_pricing = 'leading-[250%] flex items-center'
   const composition_price = 'tracking-[-0.025rem]'
@@ -9,7 +10,7 @@ const Price = () => {
 
   return (
     <>
-      <article className={`container__price flow__price ${composition_container_price}`}>
+      <article className={`container__price flow__price ${composition_container_price} ${composition_container_price_xl}`}>
         <h2 className={`${composition_h2}`}>
           Monthly Subscription
         </h2>
