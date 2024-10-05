@@ -24,7 +24,7 @@ Users should be able to:
 🚀 [https://waquintero-ia.github.io/singlePrice/]()
 
 ## Solution URL
-🚀 []()
+🚀 [https://www.frontendmentor.io/solutions/single-price-component-react-tailwind-aMVMWGbveM]()
 
 ## Author
 
