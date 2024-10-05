@@ -4,7 +4,7 @@ const Price = () => {
   const composition_pricing = 'leading-[250%] flex items-center'
   const composition_price = 'tracking-[-0.025rem]'
   const composition_unit = 'leading-[162.5%] tracking-[-0.0125rem]'
-  const composition_button = 'leading-[162.5%] tracking-[-0.0125rem] w-[100%] min-h-[3rem] rounded-[0.3125rem] bg-green-100'
+  const composition_button = 'leading-[162.5%] tracking-[-0.0125rem] w-[100%] min-h-[3rem] rounded-[0.3125rem] bg-green-100 shadow-button-shadow'
   const utility_opacity = 'opacity-50'
 
   return (

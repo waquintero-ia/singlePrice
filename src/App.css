@@ -21,6 +21,7 @@ body {
 main {
   width: 82.94vw;
   border-radius: 5px;
+  box-shadow: 0 15px 30px rgba(0, 81, 171, 0.1488);
 }
 
 .flow__title > * + * {
@@ -50,3 +51,4 @@ main {
 [data-type="left"] {
   margin-left: 2.93vw;
 }
+
