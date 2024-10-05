@@ -3,41 +3,37 @@
 @tailwind utilities;
 
 h1 {
- /* font-size: clamp(1.25rem, 2.5vw, 1.5rem);*/
- /* font-size: clamp(1rem + 1.07vw, 1rem + 1.2vw , 1rem + 0.56vw); */
- font-size: calc(1rem + 1.07vw);
+ font-size: calc(0.0625rem + 5.07vw);
   @apply font-bold;
 }
 
 .subtitle {
-  font-size: clamp(0.9375rem, 2.5vw, 1.125rem);
+  font-size: calc(0.0625rem + 3.74vw);
 }
 
 .description {
-  font-size: clamp(0.875rem, 2.5vw, 1rem);
+  font-size: calc(0.0625rem + 3.47vw);
   @apply font-normal;
 }
 
 h2 {
-  font-size: 1.125rem;
+  font-size: calc(0.0625rem + 4.54vw);
   @apply font-bold;
 }
 
 .price {
-  @apply text-[2rem];
+  font-size: calc(0.0625rem + 8.27vw);
   @apply font-bold;
 }
 
 .unit {
+  font-size: calc(0.0625rem + 4vw);
   @apply font-normal;
 }
 
 button {
+  font-size: calc(0.0625rem + 4vw);
   @apply font-bold;
+  min-height: 12.8vw;
 }
 
-@media (min-width: 80rem) {
-  h1 {
-    font-size: calc(1rem + 0.56vw);
-  }
-}
